@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Sum of Arguments</h2>
+
+<script>
+function sumArguments() {
+    let total = 0;
+
+    for (let i = 0; i < arguments.length; i++) {
+        total = total + arguments[i];
+    }
+
+    document.write("Sum is: " + total);
+}
+
+sumArguments(10, 20, 30, 40);
+</script>
+
+</body>
+</html>
